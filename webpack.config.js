@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'c-loading.js',
-    library: 'CLoading',
+    filename: 'cy-loading.js',
+    library: 'CyLoading',
     libraryTarget: "umd",
     umdNamedDefine: true
   },
