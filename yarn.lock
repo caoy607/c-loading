@@ -1004,6 +1004,13 @@ bytes@3.1.0:
   resolved "https://registry.npm.taobao.org/bytes/download/bytes-3.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbytes%2Fdownload%2Fbytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha1-9s95M6Ng4FiPqf3oVlHNx/gF0fY=
 
+c-loading@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/c-loading/-/c-loading-1.0.0.tgz#6b3e670ff001309f9f03d9844eb61f23309d4f1f"
+  integrity sha512-2evtzl3SobL88D4HXOLCtLT7CEVRRqg3IDEgaiwJ9+GhY6Uqz7kpjExGe64mfRblc7fo7D0wnmHfDdNWuLXtXQ==
+  dependencies:
+    vue "^2.5.11"
+
 cache-base@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/cache-base/download/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"

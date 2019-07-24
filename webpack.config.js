@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-loading.js',
-    library: 'VueLoading',
+    filename: 'c-loading.js',
+    library: 'CLoading',
     libraryTarget: "umd",
     umdNamedDefine: true
   },

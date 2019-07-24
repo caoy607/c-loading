@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div id="preloader-body" class="load-status" v-show="showLoading">
+      <div id="preloader-body" class="cy_load_status" v-show="showLoading">
         <div id="cube-wrapper">
           <div class="cube-folding"><span class="leaf1"></span><span class="leaf2"></span><span class="leaf3"></span><span
             class="leaf4"></span></div>

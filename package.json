@@ -11,9 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/caoy607/c-loading.git"
+    "url": "git+https://github.com/caoy607/c-loading.git"
   },
   "dependencies": {
+    "c-loading": "^1.0.0",
     "vue": "^2.5.11"
   },
   "browserslist": [

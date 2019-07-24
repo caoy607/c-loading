@@ -6,7 +6,7 @@ let Load = {}
 // Vue的install方法，用于定义vue插件
 Load.install = (Vue, options) => {
   // 如果存在loading 不重复创建DOM
-  if (document.getElementsByClassName('.load-status').length) {
+  if (document.getElementsByClassName('.cy_load_status').length) {
     return false
   }
 
@@ -29,7 +29,7 @@ Load.install = (Vue, options) => {
   document.body.appendChild(tpl)
 
   // 在Vue的原型上添加实例方法，以全局调用
-  Vue.prototype.$loading = {
+  Vue.prototype.$cyloading = {
     showLoading() {
       $vm.showLoading = true
     },
