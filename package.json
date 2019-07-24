@@ -1,7 +1,7 @@
 {
   "name": "c-loading",
   "description": "A loading plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "caoy <953445234@qq.com>",
   "license": "MIT",
   "private": false,
