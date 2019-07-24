@@ -1,10 +1,10 @@
-import CyLoading from './src/Loading.vue'
+import CyLoading from './src/CyLoading.vue'
 
 // 定义插件对象
-let Load = {}
+// let Load = {}
 
 // Vue的install方法，用于定义vue插件
-Load.install = (Vue, options) => {
+CyLoading.install = (Vue, options) => {
   // 如果存在loading 不重复创建DOM
   if (document.getElementsByClassName('.cy_load_status').length) {
     return false
@@ -38,7 +38,7 @@ Load.install = (Vue, options) => {
     }
   }
 
-  Vue.components(CyLoading.name,CyLoading)
+  // Vue.component(CyLoading.name, CyLoading)
 }
 // 导出Load
-export default Load
+export default CyLoading

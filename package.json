@@ -1,7 +1,7 @@
 {
-  "name": "c-loading",
+  "name": "cy-loading",
   "description": "A loading plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "caoy <953445234@qq.com>",
   "license": "MIT",
   "private": false,
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caoy607/c-loading"
+    "url": "git+https://github.com/caoy607/c-loading.git"
   },
   "dependencies": {
     "c-loading": "^1.0.0",
